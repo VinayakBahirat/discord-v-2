@@ -14,11 +14,14 @@
 		 border-left:2px solid grey;
 	   }
 	  .bg-lightblack {
-		 background-color:#101010;
+		 background-color:#101018;
 		 
 	   }
 	  .bg-darkblack {
-		 background-color:#080808;
+		 background-color:#070710;
+	   }
+	  .bg-lightblue {
+		background-color:#5F6F94;
 	   }
 	  
 	  .text-white {
@@ -110,7 +113,7 @@
 	  	font-size:18px;
         }
 	  .bg-lightgrey{
-	   	background-color:#202020;
+	   	background-color:#222222;
         }
 	  .small-table{
 		padding-top:5px;
@@ -118,7 +121,26 @@
 	  .small-table-width{
 		width:3%;
 	  }
-	  
+	  .float-right{
+	  	float:right;
+     	  }
+	  .inline-block{
+	  	display:inline-block;
+		margin-bottom:13px;
+   	  }
+	  .padding-small-icon{
+		padding-left:8px;
+		padding-right:8px;
+	  }
+	  .margin-icon{
+		margin-top:24px;
+		margin-bottom:24px;
+	  }
+	  .border-bottom{
+		border-bottom:1px solid white;
+	
+	  }
+	
 	 </style>
   </head>
   <body class="bg-darkblack margin padding-0">
@@ -128,15 +150,14 @@
 	   <td class="width-5">
 	    <div class="margin padding-0">
 		<center>
-		  <img class="display-block  padding-top" src="discord_logo.png" alt="logo" width="47px" height="47px" />
-	        <hr />
+		  <img class="display-block border-bottom padding-5 margin-icon" src="discord_logo.png" alt="logo" width="47px" height="47px" />
+	       
 		</center>
 		   <img class="border-1 margin" src="g.png" alt="g_image" width="50px" height="50px" />
 		<center>  
 	        <img class="display-block" src="add7.png" alt="add" width="50px" height="50px" /> 
-	        <img class="display-block" src="navigation4.png" alt="nvigation" width="40px" height="40px" />
-	        <hr />
-	        <img class="display-block" src="downloading2.png" alt="dawnload_logo_img" width="50px" height="50px" />
+	        <img class="display-block border-bottom padding-bottom" src="navigation4.png" alt="nvigation" width="40px" height="40px" />
+	        <img class="display-block margin-t-b" src="downloading2.png" alt="dawnload_logo_img" width="50px" height="50px" />
 		</center>
 	    </div>
 	   </td>
@@ -148,9 +169,9 @@
 
                <!--left side 20% td start-->
 		     <td class="width-20 border-left">
-			 <div class="text-white padding border-left">
+			 <div class="text-white padding border-left border-bottom margin-bottom padding-top">
 	              <h2>Geexu Technology</h2>
-			  <hr />
+			  
 			
 			 </div>
 			 <div class="text-grey padding-left-side padding-5">
@@ -283,10 +304,14 @@
 		    
 		    <!--tb 70% mid-->
 		     <td class="width-70 border">
-			 <div class="text-white padding">
-	               <h2># general-update-for-team-sync</strong></h2>
+			 <div class="text-white padding border-bottom padding-5">
+	               <h2 class="inline-block"># general-update-for-team-sync</strong></h2>
+				  <img class="float-right padding-small-icon margin-icon" src="person1.png" alt="person.logo" width="20px" height="20px" />
+				  <img class="float-right  padding-small-icon bottom-align margin-icon" src="pin.png" alt="pin.logo" width="20px" height="20px" />
+				  <img class="float-right  padding-small-icon bottom-align margin-icon" src="bell.png" alt="bell.logo" width="20px" height="20px" />
+				  <img class="float-right padding-small-icon bottom-align margin-icon" src="hashtag.png" alt="hashtag.logo" width="20px" height="20px" />
 			 </div>
-			 <hr />
+			 
 
 			  <!--Add table man images& message-->
 			   <table class="text-grey">
@@ -297,7 +322,7 @@
 				     <td>
 			             <td><img src="man.png" alt="man" width="50px" height="50px" /></td>
 					  <td>
-						<h5 class="person-name text-white">Name</h5>
+						<h4 class="person-name text-white">Name</h4>
 						<p class="message">Message can be much longer than what we have it here currently.</p>
 					  </td>
 					</td>
@@ -306,7 +331,7 @@
 					<td>
 					   <td><img src="man.png" alt="man" width="50px" height="50px" /></td>
 					   <td>
-					      <h5 class="person-name text-white">Name</h5>
+					      <h4 class="person-name text-white">Name</h4>
 					      <p class="message">Message</p>
 					   </td>
 					</td>
@@ -315,7 +340,7 @@
 					<td>
 		   	             <td><img src="man.png" alt="man" width="50px" height="50px" /></td>
 					  <td>
-					     <h5 class="person-name text-white">Name</h5> 
+					     <h4 class="person-name text-white">Name</h4> 
 					     <p class="message">Message</p>
 					  </td>
 					</td>
@@ -324,7 +349,7 @@
 					<td>
 			             <td><img src="man.png" alt="man" width="50px" height="50px" /></td>
 					  <td>
-					     <h5 class="person-name text-white">Name</h5>
+					     <h4 class="person-name text-white">Name</h4>
 					     <p class="message">message</p>
 					  </td>
 					</td>
@@ -333,7 +358,7 @@
 				     <td>	
 			             <td><img src="man.png" alt="man" width="50px" height="50px" /></td>
 					   <td>
-					     <h5 class="person-name text-white">Name</h5>
+					     <h4 class="person-name text-white">Name</h4>
 					     <p class="message">Message</p>
 					   </td>
 					</td>
@@ -342,7 +367,7 @@
 					<td>
 			             <td><img src="man.png" alt="man" width="50px" height="50px" /></td>
 					  <td>
-					    <h5  class="person-name text-white">Name</h5>
+					    <h4  class="person-name text-white">Name</h4>
 					    <p class="message"> Message</p>
 					  </td>
 					</td>
@@ -351,7 +376,7 @@
 					<td>
 			             <td><img src="man.png" alt="man" width="50px" height="50px" /></td>
 					  <td>
-					    <h5 class="person-name text-white">Name</h5>
+					    <h4 class="person-name text-white">Name</h4>
 					    <p class="message">Message</p>
 					  </td>
 					</td>
@@ -360,7 +385,7 @@
 				     <td>
 			             <td><img src="man.png" alt="man" width="50px" height="50px" /></td>
 					  <td>
-					    <h5 class="person-name text-white">Name</h5>
+					    <h4 class="person-name text-white">Name</h4>
 					    <p class="message">Message</p>
 					  </td>
 					</td>
@@ -369,7 +394,7 @@
 					<td>
 			        	  <td><img src="man.png" alt="man" width="50px" height="50px" /></td>
 					  <td>
-					    <h5 class="person-name text-white">Name</h5>
+					    <h4 class="person-name text-white">Name</h4>
 					    <p  class="message">Message</p>
 					  </td>
 					</td>
@@ -378,7 +403,7 @@
 				     <td>
 			             <td><img src="man.png" alt="man" width="50px" height="50px" /></td>
 					  <td>
-					    <h5 class="person-name text-white">Name</h5>
+					    <h4 class="person-name text-white">Name</h4>
 					    <p  class="message">Message</p>
 					  </td>
 					</td>
@@ -387,7 +412,7 @@
 				     <td>
 			             <td><img src="man.png" alt="man" width="50px" height="50px" /></td>
 					  <td>
-					    <h5 class="person-name text-white"> Name</h5>
+					    <h4 class="person-name text-white"> Name</h4>
 					    <p class="message">Message</p>
 					  </td>
 					</td>
@@ -396,7 +421,7 @@
 				     <td>
 			             <td><img src="man.png" alt="man" width="50px" height="50px" /></td>
 					  <td>
-					   <h5  class="person-name text-white">Name</h5>
+					   <h4  class="person-name text-white">Name</h4>
 					   <p class="message">Message</p>
 					  </td>
 					</td>
@@ -407,7 +432,12 @@
 					  <tr>
 					   <td>
 	  				    <td class="small-table-width"><img src="add7.png" alt="add image logo" width="22px" height="22px" /></td>
-					    <td class="text-grey"><small>"Message #general-updates-for-team-sync</small></td>
+					    <td class="text-grey"><small>"Message #general-updates-for-team-sync</small>
+					    	   <img class="float-right padding-small-icon" src="smile.png" alt"smile_icon" width="20px" height="20px" />
+						   <img class="float-right padding-small-icon" src="sticker.png" alt="sticker_logo" width="20px" height="20px" />
+						   <img class="float-right padding-small-icon" src="gif.png" alt="gif_logo" width="20px" height="20px" />
+						   <img class="float-right padding-small-icon" src="gift.png" alt="gift_logo" width="20px" height="20px" />
+					   </td>
 					   </td>
 					  </tr>
 	                       </td>
@@ -421,8 +451,8 @@
 			</td>
 			<!--Right side td-->
 			<td class="bg-lightblack text-grey">
-			  <div class="text-grey padding align">
-			    <h5 class="padding-bottom">ONLINE</h5>
+			  <div class="text-grey padding align padding-bottom">
+			    <h5>ONLINE</h5>
 			  </div>
 			  <hr />
 			  <div class="text-grey bg-lightblack padding-left-side align padding-5 person-name">
@@ -553,17 +583,17 @@
 			  
 			 </td>
 			
-				 </tbody>
-				</table>
-			 </div>
-		    </td>
- 		    <!--Right side td-->
+	           </tbody>
+		     </table>
+		    </div>
+		   </td>
+ 		  <!--Right side td-->
 
 
 
-		   </tbody>
-		 </table>        
-		<!--End sub table-->
+	      </tbody>
+	     </table>        
+	    <!--End sub table-->
 	   </td>
 	    
 	 </tbody>
